@@ -30,6 +30,9 @@ In this project, the following algorithms were used:
 * XGBoost
 * Lasso Regression
 
+### Data Preprocessing
+The dataset was preprocessed using pandas profiling to get an in-depth understanding of the data and identify any missing or duplicate values, along with the distributions of the features.
+
 ### Training Model
 The algorithms were trained on the dataset using a train-test split, with 80% of the data used for training and 20% for testing. 
 The best model was selected based on performance metrics such as root mean squared error (RMSE) and R-squared score.
