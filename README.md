@@ -4,8 +4,10 @@
 ### Problem Statement
 The problem at hand is to predict the price of a used car based on various features such as year of manufacture, km driven, fuel type, etc.
 
-### Dataset and Data Type
-The dataset used is a collection of used car prices and their corresponding features. 
+### Dataset
+The dataset used is a collection of used car prices and their corresponding features.
+
+### Data Type
 The data includes 10 features and 1 target column (price). 
 The features include
 
