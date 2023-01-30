@@ -41,14 +41,27 @@ The best model was selected based on performance metrics such as root mean squar
 ### Outputs
 The results of the models are shown below:
 
-#### Linear Regression
-*RMSE: 85277.05160166239*
-*R2 score: 0.8546298500803426*
+
+#### The Linear Regression
+* *RMSE of 143619.53*
+* *R2 score of 0.66*
+
+#### The Random Forest
+* *RMSE of 33524.23*
+* *R2 score of 0.98*
+
+#### The XGBoost 
+* *RMSE of 89372.12*
+* *R2 score of 0.87*
+
+#### The Lasso Regression
+* *RMSE of 143619.53*
+* *R2 score of 0.66*
 
 #### Random Forest Regression (after hyperparameter tuning)
-*Best hyperparameters: {'n_estimators': 500, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'log2', 'max_depth': None}*
-*RMSE: 77736.08259917068*
-*R2 score: 0.8984801752097382*
+* *Best hyperparameters: {'n_estimators': 500, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'log2', 'max_depth': None}*
+* *RMSE: 77736.08259917068*
+* *R2 score: 0.8984801752097382*
 
 ### Conclusion
 Based on the results, the Random Forest Regression model performed better than the Linear Regression model, 
